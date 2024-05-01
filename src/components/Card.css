@@ -1,0 +1,223 @@
+.movie {
+    background-image: url('../images//bg-index2.jpg');
+    background-position: fi;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie_intro {
+    width: 80%;
+}
+
+.movie_backdrop {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0 35%;
+}
+
+.movie_detail {
+    align-items: center;
+    width: 75%;
+    display: flex;
+    position: relative;
+    bottom: 225px;
+}
+
+.movie_detailLeft {
+    margin-right: 30px;
+}
+
+.movie_poster {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+
+.movie_detailRight {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+}
+
+.movie_detailRightTop>div {
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: .5rem;
+}
+
+.movie_name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.movie_voteCount {
+    margin-left: 1rem;
+}
+
+.movie_genres {
+    margin: 1.25rem 0;
+}
+
+.movie_genre {
+    padding: .5rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+
+.movie_detailRightBottom {
+    margin: 2rem 0;
+    flex: 0.8;
+}
+
+.synopsisText {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.synopsisText>div:last-of-type {
+    margin-left: auto;
+}
+
+.movie_links {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.movie_heading {
+    font-size: 2.2rem;
+}
+
+.movie_Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.movie_homeButton {
+    background-color: rgb(255, 0, 0);
+
+}
+
+.movie_imdbButton {
+    background-color: #f3ce13;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}
+
+.movie_production {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+
+.movie_productionComapany {
+    width: 200px;
+    margin: 2rem;
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.float-container {
+    border: 3px solid #fff;
+}
+
+.float-child {
+    margin-top: 0px;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+  }
+  
+  .rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .rating label:last-child {
+    position: static;
+  }
+  
+  .rating label:nth-child(1) {
+    z-index: 5;
+  }
+  
+  .rating label:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .rating label:nth-child(3) {
+    z-index: 3;
+  }
+  
+  .rating label:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .rating label:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .rating label .icon {
+    float: left;
+    color: transparent;
+  }
+  
+  .rating label:last-child .icon {
+    color: #000;
+  }
+  
+  .rating:not(:hover) label input:checked ~ .icon,
+  .rating:hover label:hover input ~ .icon {
+    color: #09f;
+  }
+  
+  .rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #09f;
+  }

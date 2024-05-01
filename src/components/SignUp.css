@@ -1,0 +1,15 @@
+.containers{
+    align-content: space-between;
+    border: solid white 3px;
+    box-shadow: 100px;
+    border-radius: 15px;
+    height: 530px;
+    width: 400px;
+}
+.mains{
+    background-image: url("../images/bg-index2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+}

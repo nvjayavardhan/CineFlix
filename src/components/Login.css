@@ -1,0 +1,31 @@
+.containerl{
+    align-content: space-between;
+    border: solid white 3px;
+    box-shadow: 100px;
+    border-radius: 15px;
+    height: 530px;
+    width: 400px;
+}
+.searchbar{
+    margin-top: 10px;
+}
+.heading{
+    color: white;
+    font-size: medium;
+}
+.img{
+    max-width: 300px;
+    max-height:300px;
+}
+
+.submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mainl{
+    background-image: url("../images/bg-index2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+}
